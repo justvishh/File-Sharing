@@ -12,7 +12,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("/server/view.fxml"));
-        primaryStage.setTitle("File Retriever Server");
+        primaryStage.setTitle("FileSharing Server");
         primaryStage.setResizable(false);
         primaryStage.setScene(new Scene(root, 700, 450));
         primaryStage.getIcons().add(new Image("server/icon.png"));
